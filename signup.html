@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <section class="bg-grey-50 min-h-screen flex flex-col items-center justify-center p-5">
+        <div class="bg-white flex shadow-lg max-w-3xl p-3 items-center rounded-xl">
+            <!-- CUSTOMER SIGN UP -->
+            <div class="md px-4">
+                <img class="pl-2" src="images/logo_full.png" width="150px">
+                <h2 class="font-bold text-2xl text-[#adc178] pt-2">Create your GingerRewards Account</h2>
+                <p class="text-xs mt-2 text-[#adc178]">to continue to your GingerRewards profile</p>
+
+                <form action="" class="flex flex-col gap-4">
+                    <input class="p-2 mt-5 rounded-xl border" type="text" name="firstName" placeholder="First name">
+                    <input class="p-2 rounded-xl border" type="text" name="lastName" placeholder="Last name">
+                    
+                    <!-- MESSAGE-->
+                    <p class="text-xs mt-2 text-[#adc178]">Please pick one method of verification in order to complete signing up</p>
+
+                    <!-- EMAIL -->
+                    <input class="p-2 mt-2 rounded-xl border" type="text" name="email" placeholder="Email">
+                    <div class="flex items-center">
+                        <input type="checkbox" id="emailOptIn" name="emailOptIn" value="yes">
+                        <label for="emailOptIn" class="text-xs ml-2">Opt in to receive GingerRewards promotions</label>
+                    </div>
+                    <button class="bg-[#adc178] mt-5 rounded-xl text-white py-2 hover:scale-105 duration-300">Send Email Verification</button>
+
+                    <!-- PHONE NUMBER -->
+                    <input class="p-2 mt-2 rounded-xl border" type="text" name="email" placeholder="Email">
+                    <div class="flex items-center">
+                        <input type="checkbox" id="emailOptIn" name="emailOptIn" value="yes">
+                        <label for="emailOptIn" class="text-xs ml-2">Opt in to receive GingerRewards promotions</label>
+                    </div>
+                    <button class="bg-[#adc178] mt-5 mb-5 rounded-xl text-white py-2 hover:scale-105 duration-300">Send SMS Verification</button>
+
+                    <input class="p-2 rounded-xl border" type="password" name="password" placeholder="Password">
+                    <button class="bg-[#adc178] mt-5 mb-5 rounded-xl text-white py-2 hover:scale-105 duration-300">Log in</button>
+                </form>
+
+            </div>
+        </div>
+        <!-- BOTTOM BUTTON CONTAINERS -->
+        <div class="flex max-w-3xl items-center rounded-xl mt-5 justify-between">
+            <a href="index.html" class="text-[#adc178] mr-20">Sign in instead</a>
+            <a href="#" class="bg-[#adc178] px-5 py-3 text-white rounded-lg hover:scale-105 duration-300 shadow-lg ml-20">Next</a>
+        </div>    
+    </section>
+</body>
+</html>

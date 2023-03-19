@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Customer Sign In</title>
+</head>
+<body>
+    
+    <section class="bg-gray-50 min-h-screen flex items-center justify-center">
+        <!-- LOG IN CONTAINER -->
+        <div class="bg-[#f8f9fa] flex shadow-lg max-w-3xl p-5 item-center">
+
+            <!-- CUSTOMER LOG IN -->
+            <div class="md px-4">
+                <img class="pl-2" src="images/logo_full.png" width="150px">
+                <h2 class="font-bold text-2xl text-[#adc178] pt-2">Sign in</h2>
+                <p class="text-xs mt-2 text-[#adc178]">
+                    Welcome back, please log in below!
+                </p>
+
+                <form action="" class="flex flex-col gap-4">
+                    <input class="p-2 mt-5 rounded-xl border" type="text" name="email" placeholder="Email">
+                    <input class="p-2 rounded-xl border" type="password" name="password" placeholder="Password">
+                    <button class="bg-[#adc178] rounded-xl text-white py-2 hover:scale-105 duration-300">Log in</button>
+                </form>
+
+                <!-- OR GOOGLE LOG IN -->
+                <div class="mt-6 grid grid-cols-3 items-center text-gray-400">
+                    <hr class="border-gray-400">
+                    <p class="text-center text-sm">OR</p>
+                    <hr class="border-gray-400">
+                </div>
+
+                <!-- CONTINUE WITH GOOGLE BUTTON -->
+                <button class="bg-white border py-2 w-full rounded-xl mt-5 flex justify-center item-center text-sm hover:scale-110 duration-300"><img alt="svgGoogleImg" class="mr-2" width="20px" height="20px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNGRkMxMDciIGQ9Ik00My42MTEsMjAuMDgzSDQyVjIwSDI0djhoMTEuMzAzYy0xLjY0OSw0LjY1Ny02LjA4LDgtMTEuMzAzLDhjLTYuNjI3LDAtMTItNS4zNzMtMTItMTJjMC02LjYyNyw1LjM3My0xMiwxMi0xMmMzLjA1OSwwLDUuODQyLDEuMTU0LDcuOTYxLDMuMDM5bDUuNjU3LTUuNjU3QzM0LjA0Niw2LjA1MywyOS4yNjgsNCwyNCw0QzEyLjk1NSw0LDQsMTIuOTU1LDQsMjRjMCwxMS4wNDUsOC45NTUsMjAsMjAsMjBjMTEuMDQ1LDAsMjAtOC45NTUsMjAtMjBDNDQsMjIuNjU5LDQzLjg2MiwyMS4zNSw0My42MTEsMjAuMDgzeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNGRjNEMDAiIGQ9Ik02LjMwNiwxNC42OTFsNi41NzEsNC44MTlDMTQuNjU1LDE1LjEwOCwxOC45NjEsMTIsMjQsMTJjMy4wNTksMCw1Ljg0MiwxLjE1NCw3Ljk2MSwzLjAzOWw1LjY1Ny01LjY1N0MzNC4wNDYsNi4wNTMsMjkuMjY4LDQsMjQsNEMxNi4zMTgsNCw5LjY1Niw4LjMzNyw2LjMwNiwxNC42OTF6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzRDQUY1MCIgZD0iTTI0LDQ0YzUuMTY2LDAsOS44Ni0xLjk3NywxMy40MDktNS4xOTJsLTYuMTktNS4yMzhDMjkuMjExLDM1LjA5MSwyNi43MTUsMzYsMjQsMzZjLTUuMjAyLDAtOS42MTktMy4zMTctMTEuMjgzLTcuOTQ2bC02LjUyMiw1LjAyNUM5LjUwNSwzOS41NTYsMTYuMjI3LDQ0LDI0LDQ0eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMxOTc2RDIiIGQ9Ik00My42MTEsMjAuMDgzSDQyVjIwSDI0djhoMTEuMzAzYy0wLjc5MiwyLjIzNy0yLjIzMSw0LjE2Ni00LjA4Nyw1LjU3MWMwLjAwMS0wLjAwMSwwLjAwMi0wLjAwMSwwLjAwMy0wLjAwMmw2LjE5LDUuMjM4QzM2Ljk3MSwzOS4yMDUsNDQsMzQsNDQsMjRDNDQsMjIuNjU5LDQzLjg2MiwyMS4zNSw0My42MTEsMjAuMDgzeiI+PC9wYXRoPgo8L3N2Zz4="/>Continue with Google</button>
+
+                <!-- FORGOT PASSWORD -->
+                <div class="mt-3 text-xs border-b py-4 border-gray-400">
+                    Forgot your password?
+                </div>
+
+                <!-- SIGN UP HERE IF YOU NOT PART OF THE CREW YET -->
+                <div class="mt-3 text-xs flex justify-between items-center">
+                    <p>New to GingerRewards?</p>
+                    <a href="signup.html" class="py-2 px-4 bg-white border rounded-xl">Register</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
